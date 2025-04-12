@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production",
-    "postbuild":"copy routes.json dist\\side-menu",
+    "postbuild":"cp routes.json dist/side-menu/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
